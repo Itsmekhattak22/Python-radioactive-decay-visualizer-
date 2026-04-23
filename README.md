@@ -1,11 +1,12 @@
 # ☢️ Radioactive Decay Simulator
 
+---
+
 > *Every atom holds its breath — until it doesn't.*
 
 A real-time, interactive visualisation of stochastic radioactive decay built with Python and Matplotlib.
 Watch hundreds of atoms decay step-by-step, explore the relationship between half-life and exponential loss, and tweak parameters on the fly.
 
----
 
 ## ✨ Features
 
@@ -19,7 +20,6 @@ Watch hundreds of atoms decay step-by-step, explore the relationship between hal
 | **Two colour themes**     | *Neon Science* (dark) and *Clean Laboratory* (light) — configurable in `config.py` |
 | **Fast rendering**        | Persistent matplotlib artists — **no full redraw per frame**                       |
 
----
 
 ## 🧠 Physics Behind the Simulation
 
@@ -36,7 +36,7 @@ Where:
 
 Each atom has a random chance to decay during every time step based on this probability.
 
----
+
 
 ## 🛠 Tech Stack
 
@@ -45,7 +45,7 @@ Each atom has a random chance to decay during every time step based on this prob
 * **NumPy 1.24+** — grid geometry helpers
 * **Pure-Python** linked list for decay history
 
----
+
 
 ## 📁 Project Structure
 
@@ -62,11 +62,11 @@ radioactive_decay/
 └── README.md
 ```
 
----
+
 
 ## 🚀 How to Run
 
-```bash
+
 # 1. Clone the repository
 git clone https://github.com/your-username/radioactive-decay-simulator.git
 
@@ -78,11 +78,11 @@ pip install -r requirements.txt
 
 # 4. Run the simulator
 python main.py
-```
+
 
 > Tested on Python 3.10 – 3.12 (Windows, macOS, Linux)
 
----
+
 
 ## 🔭 Future Improvements
 
@@ -92,16 +92,18 @@ python main.py
 4. **CSV export** — save timeline data for analysis
 5. **Batch statistics mode** — run multiple simulations and compute averages
 
----
+
 
 ## 📄 License
 
 MIT © 2025 — see [LICENSE](LICENSE) for details.
 
----
+
 
 ## 👩‍💻 Author
 
 **Emman Khattak**
 Software Engineering Student @ NUST
 Physics + Programming Enthusiast 💻⚛️
+
+---
